@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="flex justify-center w-1/3">
           <Link href="/">
             <Image
-              src=""
+              src="/icone.png"
               alt="Site logo"
               width={50}
               height={34}

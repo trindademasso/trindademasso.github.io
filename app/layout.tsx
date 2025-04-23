@@ -1,8 +1,24 @@
-import type { Metadata } from 'next';
+import type { Metadata } from "next";
+import { Poppins, Cormorant_Garamond } from "next/font/google";
+import "./globals.css";
+import Navbar from "@/app/components/Navbar";
+import Footer from "@/app/components/Footer";
+
+const poppins = Poppins({
+  variable: "--font-poppins",
+  subsets: ["latin"],
+  weight: ["400", "700"] // Adapte conforme necessário
+});
+
+const cormorantGaramond = Cormorant_Garamond({
+  variable: "--font-cormorant-garamond",
+  subsets: ["latin"],
+  weight: ["400", "700"] // Adapte conforme necessário
+});
 
 export const metadata: Metadata = {
-  title: 'Next.js on GitHub Pages',
-  description: 'Deploy your static Next.js site to GitHub Pages.',
+  title: "Trindade Fisioterapia e Pilates",
+  description: "Saúde, equilíbrio e bem-estar em cada detalhe",
 };
 
 export default function RootLayout({
@@ -12,7 +28,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${poppins.variable} ${cormorantGaramond.variable} antialiased`}>
+        <Navbar /> 
+        {children}
+        <Footer/> 
+      </body>
     </html>
   );
 }

@@ -16,7 +16,7 @@ export default function SectionThree() {
         <div className="text-center col-start-1 col-end-3">
           <div className="flex justify-center items-center pb-8">
             <Image
-              src="/icone.png"
+              src="/trindadeicone.png"
               alt="Ícone Fisioterapia"
               width={50}
               height={34}
@@ -33,7 +33,7 @@ export default function SectionThree() {
         <div className="text-center col-start-3 col-end-5">
           <div className="flex justify-center items-center pb-8">
             <Image
-              src="/icone.png"
+              src="/trindadeicone.png"
               alt="Ícone Massagem"
               width={50}
               height={34}
@@ -50,7 +50,7 @@ export default function SectionThree() {
         <div className="text-center col-start-5 col-end-7">
           <div className="flex justify-center items-center pb-8">
             <Image
-              src="/icone.png"
+              src="/trindadeicone.png"
               alt="Ícone Estética"
               width={50}
               height={34}
@@ -67,7 +67,7 @@ export default function SectionThree() {
         <div className="text-center col-start-2 col-end-4">
           <div className="flex justify-center items-center pb-8">
             <Image
-              src="/icone.png"
+              src="/trindadeicone.png"
               alt="Ícone Terapias"
               width={50}
               height={34}
@@ -84,7 +84,7 @@ export default function SectionThree() {
         <div className="text-center col-start-4 col-end-6">
           <div className="flex justify-center items-center pb-8">
             <Image
-              src="/icone.png"
+              src="/trindadeicone.png"
               alt="Ícone Aula de Pilates"
               width={50}
               height={34}

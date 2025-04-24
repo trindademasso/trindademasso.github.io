@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: "/trindade/trindade",
+  basePath: process.env.PAGES_BASE_PATH,
 };
 
 export default nextConfig;

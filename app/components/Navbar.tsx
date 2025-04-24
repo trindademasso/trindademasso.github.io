@@ -8,15 +8,15 @@ export default function Navbar() {
         
         {/* Grupo esquerdo alinhado à direita */}
         <div className="invisible md:visible absolute left-0 flex gap-8 justify-end w-1/3">
-          <Link href="/#about" className="hover:underline">Sobre Nós</Link>
-          <Link href="/#services" className="hover:underline">Serviços</Link>
+          <Link href="/trindade#about" className="hover:underline">Sobre Nós</Link>
+          <Link href="/trindade#services" className="hover:underline">Serviços</Link>
         </div>
 
         {/* Logo centralizado */}
         <div className="flex justify-center w-1/3">
-          <Link href="/">
+          <Link href="/trindade">
             <Image
-              src="/actual_logo.png"
+              src="/trindadeactual_logo.png"
               alt="Site logo"
               width={200}
               height={27}
@@ -28,7 +28,7 @@ export default function Navbar() {
         {/* Grupo direito alinhado à esquerda */}
         <div className="invisible md:visible absolute right-0 flex gap-8 justify-start w-1/3">
           <Link href="#where" className="hover:underline">Onde Estamos</Link>
-          <Link href="/#contact" className="hover:underline">Contato</Link>
+          <Link href="/trindade#contact" className="hover:underline">Contato</Link>
         </div>
       </div>
     </nav>

@@ -15,7 +15,7 @@ export default function SectionOne() {
             Fisioterapia, estética, bem-estar e equilíbrio em um só lugar.
           </p>
           <a
-            href="#servicos"
+            href="#services"
             className="font-sans uppercase bg-[#f1345d] hover:bg-[#c92b4c] text-white py-3 px-8 font-semibold text-xs transition duration-300"
           >
             Conheça nossos serviços

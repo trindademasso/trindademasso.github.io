@@ -7,10 +7,10 @@ export default function SectionFive() {
       <div id="contact" className="text-center py-20 bg-[#ebebeb]">
 
         <h4 className="text-2xl font-thin italic mb-4 text-[#CEB19C]">
-          Descubra
+          Entre em
         </h4>
         <h1 className="text-5xl font-bold mb-15 text-[#494949]">
-          Onde Estamos
+          Contato
         </h1>
         <div className="flex justify-center items-center px-10 md:px-20">
         <form className="font-mono w-full max-w-xl bg-white p-6 shadow-md text-left space-y-4">

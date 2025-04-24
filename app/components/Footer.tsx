@@ -13,7 +13,7 @@ export default function Footer() {
 
         {/* Logo centralizado */}
         <div className="flex justify-center w-1/3">
-          <Link href="/trindade">
+          <Link href="/">
             <Image
               src="/trindadeicone.png"
               alt="Site logo"

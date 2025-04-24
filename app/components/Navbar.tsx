@@ -16,7 +16,7 @@ export default function Navbar() {
         <div className="flex justify-center w-1/3">
           <Link href="/">
             <Image
-              src="/trindade/actual_logo.png"
+              src="/actual_logo.png"
               alt="Site logo"
               width={200}
               height={27}

@@ -7,7 +7,7 @@ export default function SectionTwo() {
 
       <div className="flex justify-center items-center pb-4">
           <Image
-            src="/trindade/icone.png"
+            src="/icone.png"
             alt="Logomarca Trindade Fisioterapia e Pilates"
             width={50}
             height={34}
@@ -42,7 +42,7 @@ export default function SectionTwo() {
           <div className="text-center">
             <div className="flex justify-center items-center pb-8">
               <Image
-                src="/trindade/sectiontwo.jpg"
+                src="/sectiontwo.jpg"
                 alt="Ícone da Reidente"
                 width={440}
                 height={440}

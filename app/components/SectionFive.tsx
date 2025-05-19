@@ -13,7 +13,8 @@ export default function SectionFive() {
           Contato
         </h1>
         <div className="flex justify-center items-center px-10 md:px-20">
-        <form className="font-mono w-full max-w-xl bg-white p-6 shadow-md text-left space-y-4">
+        <form action="https://formspree.io/f/mgvkqydk"
+  method="POST" className="font-mono w-full max-w-xl bg-white p-6 shadow-md text-left space-y-4">
           <div>
             <input
               placeholder="Nome"

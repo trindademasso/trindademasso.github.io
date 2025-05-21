@@ -15,7 +15,7 @@ export default function SectionFour() {
           <div className="text-center">
             <div className="flex justify-center items-center pb-8">
               <Image
-                src="/trindade/mogi.png"
+                src="/mogi.png"
                 alt="Ícone da Reidente"
                 width={440}
                 height={440}
@@ -31,7 +31,7 @@ export default function SectionFour() {
           <div className="text-center">
             <div className="flex justify-center items-center pb-8">
               <Image
-                src="/trindade/sp.png"
+                src="/sp.png"
                 alt="Ícone da Reidente"
                 width={440}
                 height={440}

@@ -1,51 +1,30 @@
-import Image from "next/image";
+import React from "react";
 
 export default function SectionFour() {
   return (
-    <>
-      <div id="where" className="text-center py-20">
-
-        <h4 className="text-2xl font-thin italic mb-4 text-[#CEB19C]">
-          Descubra
-        </h4>
-        <h1 className="text-5xl font-bold mb-20 text-[#494949]">
-          Onde Estamos
-        </h1>
-        <div className="md:grid md:grid-cols-1 md:grid-cols-2 gap-20 px-10 md:px-20">
-          <div className="text-center">
-            <div className="flex justify-center items-center pb-8">
-              <Image
-                src="/mogi.png"
-                alt="Ícone da Reidente"
-                width={440}
-                height={440}
-              />
-            </div>
-            <h5 className="text-2xl font-bold mb-4 text-[#494949]">
-              Mogi das Cruzes
-            </h5>
-            <p className="text-xl mb-4">
-            Av. Pedro Machado, 395 - Sala 16 - 1º andar - Vila Mogi Moderno, Mogi das Cruzes - SP, 08717-720
-            </p>
-          </div>
-          <div className="text-center">
-            <div className="flex justify-center items-center pb-8">
-              <Image
-                src="/sp.png"
-                alt="Ícone da Reidente"
-                width={440}
-                height={440}
-              />
-            </div>
-            <h5 className="text-2xl font-bold mb-4 text-[#494949]">
-              São Paulo
-            </h5>
-            <p className="text-xl">
-            Alameda Santos, 211 - 1601 - Paraíso, São Paulo - SP, 01419-000
-            </p>
-          </div>
-        </div>
-      </div> 
-    </>
+    <div id="testimonials" className="text-center py-20">
+      <h4 className="text-2xl font-thin italic mb-4 text-[#CEB19C]">
+        O que nossos clientes dizem
+      </h4>
+      <h1 className="text-5xl font-bold mb-10 text-[#494949]">
+        Depoimentos
+      </h1>
+      <div className="flex justify-center px-4 md:px-20">
+        {/*
+          Substitua o 'src' do iframe pelo URL do seu vídeo de depoimento.
+          Certifique-se de usar o formato de incorporação do YouTube (ex: https://www.youtube.com/embed/VIDEO_ID).
+        */}
+        <iframe
+          width="800"
+          height="450"
+          src="https://www.youtube.com/embed/cEAb78dtDN0?si=Hs8O3L_J4kj6QSDs" // Exemplo: Substitua pelo seu vídeo
+          title="Depoimento de Cliente"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          className="w-full max-w-4xl aspect-video" // Garante que o vídeo seja responsivo
+        ></iframe>
+      </div>
+    </div>
   );
 }

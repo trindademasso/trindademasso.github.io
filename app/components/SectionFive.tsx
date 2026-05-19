@@ -15,17 +15,17 @@ export default function SectionFive() {
         <div className="text-center">
           <div className="flex justify-center items-center pb-8">
             <Image
-              src="/mogi.png"
+              src="/caraguatatuba.png"
               alt="Ícone da Reidente"
               width={440}
               height={440}
             />
           </div>
           <h5 className="text-2xl font-bold mb-4 text-[#494949]">
-            Mogi das Cruzes
+            Caraguatatuba
           </h5>
           <p className="text-xl mb-4">
-            Av. Pedro Machado, 395 - Sala 16 - 1º andar - Vila Mogi Moderno, Mogi das Cruzes - SP, 08717-720
+            Rua Benedita Francisca da Silva Gonçalves, 75 - Poiares, Caraguatatuba - SP, 11673-080
           </p>
         </div>
         <div className="text-center">

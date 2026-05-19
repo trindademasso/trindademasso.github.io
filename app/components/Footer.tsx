@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <nav className="w-full z-50 bg-white/90 text-[#494949] font-mono font-thin text-xs backdrop-blur-md shadow-md">
+    <nav className="w-full z-50 text-[#494949] font-mono font-thin text-xs backdrop-blur-md shadow-md">
       <div className="relative flex items-center justify-center w-full max-w-6xl mx-auto px-4 py-3">
-        
+
         {/* Grupo esquerdo alinhado à direita */}
         <div className="absolute left-0 flex gap-8 justify-end w-1/3">
           <p>Copyright Trindade, 2025</p>
